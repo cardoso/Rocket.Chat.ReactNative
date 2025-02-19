@@ -2026,7 +2026,7 @@ PODS:
     - RNFBApp
   - RNFileViewer (2.1.5):
     - React-Core
-  - RNGestureHandler (2.22.1):
+  - RNGestureHandler (2.23.1):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2036,6 +2036,7 @@ PODS:
     - React-Core
     - React-debug
     - React-Fabric
+    - React-FabricComponents
     - React-featureflags
     - React-graphics
     - React-ImageManager
@@ -2878,7 +2879,7 @@ SPEC CHECKSUMS:
   RNFBCrashlytics: 1acdb4ad4e36031d4671b83f54f2618785f21eee
   RNFBMessaging: 10e835be65989d7fe64c0e92a1afeff5b6398021
   RNFileViewer: 4b5d83358214347e4ab2d4ca8d5c1c90d869e251
-  RNGestureHandler: 36aca36e4ef19f55dbf97239199d00fd58494e34
+  RNGestureHandler: 22a74b1b02b40a313be9f3da8807bde534d77caa
   RNImageCropPicker: b0afedeefd8655254a15c34103718455fde6ce59
   RNKeychain: a62db5d0ed91ce7bcb6f65b8c42ae2557701afc1
   RNLocalize: 759649ec888d632e6d3ac50fb7756c2af777e1ae

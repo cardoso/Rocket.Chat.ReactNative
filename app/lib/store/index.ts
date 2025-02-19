@@ -6,29 +6,10 @@ import sagas from '../../sagas';
 import applyAppStateMiddleware from './appStateMiddleware';
 import applyInternetStateMiddleware from './internetStateMiddleware';
 
-let sagaMiddleware;
-let enhancers;
+const sagaMiddleware = createSagaMiddleware();
+const enhancers = compose(applyAppStateMiddleware(), applyInternetStateMiddleware(), applyMiddleware(sagaMiddleware));
 
-if (__DEV__) {
-	const reduxImmutableStateInvariant = require('redux-immutable-state-invariant').default();
-	const { default: Reactotron }: typeof import('reactotron-react-native') = require('reactotron-react-native');
-	sagaMiddleware = createSagaMiddleware({
-		sagaMonitor: Reactotron.createSagaMonitor?.()
-	});
-
-	enhancers = compose(
-		applyAppStateMiddleware(),
-		applyInternetStateMiddleware(),
-		applyMiddleware(reduxImmutableStateInvariant),
-		applyMiddleware(sagaMiddleware),
-		// Reactotron.createEnhancer()
-	);
-} else {
-	sagaMiddleware = createSagaMiddleware();
-	enhancers = compose(applyAppStateMiddleware(), applyInternetStateMiddleware(), applyMiddleware(sagaMiddleware));
-}
-
-const store = createStore(reducers, undefined, enhancers);
+const store = createStore(reducers, enhancers);
 sagaMiddleware.run(sagas);
 
 export default store;

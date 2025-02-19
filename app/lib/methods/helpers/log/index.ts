@@ -3,10 +3,10 @@ import { getCrashlytics } from '@react-native-firebase/crashlytics';
 import { isFDroidBuild } from '../../../constants/environment';
 import events from './events';
 
-import type { default as Bugsnag } from '@bugsnag/expo';
+import type Bugsnag from '@bugsnag/expo';
 
 const analytics = getAnalytics();
-let bugsnag:  typeof Bugsnag | null = null;
+let bugsnag: typeof Bugsnag | null = null;
 const crashlytics = getCrashlytics();
 let reportCrashErrors = true;
 let reportAnalyticsEvents = true;
@@ -14,7 +14,7 @@ let reportAnalyticsEvents = true;
 export const getReportCrashErrorsValue = (): boolean => reportCrashErrors;
 export const getReportAnalyticsEventsValue = (): boolean => reportAnalyticsEvents;
 
-if (!isFDroidBuild) {
+if (!__DEV__ && !isFDroidBuild) {
 	bugsnag = require('@bugsnag/expo').default;
 	bugsnag?.start({
 		onBreadcrumb() {
@@ -29,7 +29,6 @@ if (!isFDroidBuild) {
 	});
 }
 
-// export { analytics };
 export { events };
 
 let metadata = {};
@@ -42,7 +41,7 @@ export const logServerVersion = (serverVersion: string): void => {
 
 export const logEvent = (eventName: string, payload?: { [key: string]: any }): void => {
 	try {
-		if (!isFDroidBuild) {
+		if (!__DEV__ && !isFDroidBuild) {
 			analytics.logEvent(eventName, payload);
 			bugsnag?.leaveBreadcrumb(eventName, payload);
 		}
@@ -52,7 +51,7 @@ export const logEvent = (eventName: string, payload?: { [key: string]: any }): v
 };
 
 export const setCurrentScreen = (currentScreen: string): void => {
-	if (!isFDroidBuild) {
+	if (!__DEV__ && !isFDroidBuild) {
 		analytics.logScreenView({ screen_class: currentScreen, screen_name: currentScreen });
 		bugsnag?.leaveBreadcrumb(currentScreen, { type: 'navigation' });
 	}

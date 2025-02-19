@@ -8,7 +8,7 @@ index 58ed98b9c03d345a38ab56b40c207be524d342cf..74d35bcbf12ee79d43fb4274f610dd0e
      (0, react_1.useEffect)(function () {
 -        react_native_1.BackHandler.addEventListener('hardwareBackPress', handler);
 -        return function () { return react_native_1.BackHandler.removeEventListener('hardwareBackPress', handler); };
-+        const subscription = react_native_1.BackHandler.addEventListener('hardwareBackPress', handler);
++        var subscription = react_native_1.BackHandler.addEventListener('hardwareBackPress', handler);
 +        return function () { return subscription.remove(); };
      }, [handler]);
  }

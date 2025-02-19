@@ -465,7 +465,7 @@ class RoomsListView extends React.Component<IRoomsListViewProps, IRoomsListViewS
 					onPress={
 						isMasterDetail
 							? () => navigation.navigate('ModalStackNavigator', { screen: 'SettingsView' })
-							: // @ts-ignore
+							: 
 							  () => navigation.toggleDrawer()
 					}
 					badge={() => getBadge()}

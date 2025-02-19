@@ -10,15 +10,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		22BB1B4B794142E0B1B002DF /* custom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47401AFEAF604F4284644663 /* custom.ttf */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		86D4ED598C2841C080426FEC /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28C5B44A69E74D608CDBA226 /* SpaceMono-Regular.ttf */; };
-		A1B088E5EEF34783BE95CB7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 409A988026954699975E63E3 /* GoogleService-Info.plist */; };
+		4409E7683E7B4B8480E0C006 /* custom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A1B82A6196544ECA2793029 /* custom.ttf */; };
+		55D27FABACEB054886E6DFF9 /* Pods_RocketChatRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B51AE8C29C9477A730ACF7 /* Pods_RocketChatRN.framework */; };
+		927F58DBDD224FAAB3F8501F /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9AD177659AC45C7B51A275F /* SpaceMono-Regular.ttf */; };
+		970EF07CF9F44E6CA62B7E1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB876021FB4C26AD97C896 /* GoogleService-Info.plist */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
-		B48385DF4B234065881076DD /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FD49B066A4248A088D998 /* noop-file.swift */; };
+		B7DCC665480848040670BC49 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 45884610DB467558561AD8B7 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		E84738D0188EAF2B72408957 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 63B7BBFC11E900CB3F4E89D8 /* PrivacyInfo.xcprivacy */; };
-		F6B9C6086E306667ABE38AC8 /* Pods_RocketChatRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57E4574DA3357D9DC60FC4D /* Pods_RocketChatRN.framework */; };
+		CEC1CE49A91942A89214F811 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01CFAF2BD24AFCB38BD9A0 /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,18 +28,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RocketChatRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RocketChatRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RocketChatRN/main.m; sourceTree = "<group>"; };
-		27E3EC9E749F4E7099062DE9 /* RocketChatRN-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "RocketChatRN-Bridging-Header.h"; path = "RocketChatRN/RocketChatRN-Bridging-Header.h"; sourceTree = "<group>"; };
-		28C5B44A69E74D608CDBA226 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpaceMono-Regular.ttf"; path = "../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
-		409A988026954699975E63E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RocketChatRN/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		47401AFEAF604F4284644663 /* custom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = custom.ttf; path = ../assets/fonts/custom.ttf; sourceTree = "<group>"; };
-		63B7BBFC11E900CB3F4E89D8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RocketChatRN/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2B01CFAF2BD24AFCB38BD9A0 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "RocketChatRN/noop-file.swift"; sourceTree = "<group>"; };
+		45884610DB467558561AD8B7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RocketChatRN/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-RocketChatRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChatRN.debug.xcconfig"; path = "Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-RocketChatRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketChatRN.release.xcconfig"; path = "Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN.release.xcconfig"; sourceTree = "<group>"; };
+		95B51AE8C29C9477A730ACF7 /* Pods_RocketChatRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketChatRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1B82A6196544ECA2793029 /* custom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = custom.ttf; path = ../assets/fonts/custom.ttf; sourceTree = "<group>"; };
+		9DDB876021FB4C26AD97C896 /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RocketChatRN/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = RocketChatRN/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C41FD49B066A4248A088D998 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "RocketChatRN/noop-file.swift"; sourceTree = "<group>"; };
-		D57E4574DA3357D9DC60FC4D /* Pods_RocketChatRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketChatRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AD177659AC45C7B51A275F /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SpaceMono-Regular.ttf"; path = "../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F054A5FBEB0B4C4BA53DC3EA /* RocketChatRN-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "RocketChatRN-Bridging-Header.h"; path = "RocketChatRN/RocketChatRN-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-RocketChatRN/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B9C6086E306667ABE38AC8 /* Pods_RocketChatRN.framework in Frameworks */,
+				55D27FABACEB054886E6DFF9 /* Pods_RocketChatRN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +65,10 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				409A988026954699975E63E3 /* GoogleService-Info.plist */,
-				C41FD49B066A4248A088D998 /* noop-file.swift */,
-				27E3EC9E749F4E7099062DE9 /* RocketChatRN-Bridging-Header.h */,
-				63B7BBFC11E900CB3F4E89D8 /* PrivacyInfo.xcprivacy */,
+				9DDB876021FB4C26AD97C896 /* GoogleService-Info.plist */,
+				2B01CFAF2BD24AFCB38BD9A0 /* noop-file.swift */,
+				F054A5FBEB0B4C4BA53DC3EA /* RocketChatRN-Bridging-Header.h */,
+				45884610DB467558561AD8B7 /* PrivacyInfo.xcprivacy */,
 			);
 			name = RocketChatRN;
 			sourceTree = "<group>";
@@ -77,16 +77,16 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D57E4574DA3357D9DC60FC4D /* Pods_RocketChatRN.framework */,
+				95B51AE8C29C9477A730ACF7 /* Pods_RocketChatRN.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48A94AB1BDA74A14976FACAA /* Resources */ = {
+		2E78B827E13E45E98412F961 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				47401AFEAF604F4284644663 /* custom.ttf */,
-				28C5B44A69E74D608CDBA226 /* SpaceMono-Regular.ttf */,
+				9A1B82A6196544ECA2793029 /* custom.ttf */,
+				C9AD177659AC45C7B51A275F /* SpaceMono-Regular.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -108,7 +108,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				48A94AB1BDA74A14976FACAA /* Resources */,
+				2E78B827E13E45E98412F961 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -165,15 +165,15 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RocketChatRN" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				BA1623FE9926D9926A2C6669 /* [Expo] Configure project */,
+				55DE83B2763AF46C6A74671C /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				9A1752987DCDDC178DA07467 /* [CP] Embed Pods Frameworks */,
-				649BEA54C2F2C9508ED3CD98 /* [CP-User] [RNFB] Core Configuration */,
-				CCA15AB6452E6DE97BCA12D8 /* [CP-User] [RNFB] Crashlytics Configuration */,
+				1F0B2EBC67514E02E2E176EE /* [CP] Embed Pods Frameworks */,
+				7C196722A6E1C2F2FD66DAC2 /* [CP-User] [RNFB] Core Configuration */,
+				7A98AB8D875E1D0DB7D220E8 /* [CP-User] [RNFB] Crashlytics Configuration */,
 			);
 			buildRules = (
 			);
@@ -225,10 +225,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				A1B088E5EEF34783BE95CB7F /* GoogleService-Info.plist in Resources */,
-				22BB1B4B794142E0B1B002DF /* custom.ttf in Resources */,
-				86D4ED598C2841C080426FEC /* SpaceMono-Regular.ttf in Resources */,
-				E84738D0188EAF2B72408957 /* PrivacyInfo.xcprivacy in Resources */,
+				970EF07CF9F44E6CA62B7E1F /* GoogleService-Info.plist in Resources */,
+				4409E7683E7B4B8480E0C006 /* custom.ttf in Resources */,
+				927F58DBDD224FAAB3F8501F /* SpaceMono-Regular.ttf in Resources */,
+				B7DCC665480848040670BC49 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +272,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		649BEA54C2F2C9508ED3CD98 /* [CP-User] [RNFB] Core Configuration */ = {
+		1F0B2EBC67514E02E2E176EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DE83B2763AF46C6A74671C /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-RocketChatRN/expo-configure-project.sh\"\n";
+		};
+		7A98AB8D875E1D0DB7D220E8 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		7C196722A6E1C2F2FD66DAC2 /* [CP-User] [RNFB] Core Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,59 +454,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A1752987DCDDC178DA07467 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketChatRN/Pods-RocketChatRN-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA1623FE9926D9926A2C6669 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-RocketChatRN/expo-configure-project.sh\"\n";
-		};
-		CCA15AB6452E6DE97BCA12D8 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			name = "[CP-User] [RNFB] Crashlytics Configuration";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -464,7 +464,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				B48385DF4B234065881076DD /* noop-file.swift in Sources */,
+				CEC1CE49A91942A89214F811 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

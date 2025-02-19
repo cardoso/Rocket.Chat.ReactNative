@@ -2,6 +2,6 @@ import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
 
-export const isFDroidBuild = Platform.OS === 'android' && Constants.expoConfig?.extra?.isFDroidBuild;
+export const isFDroidBuild: boolean = Platform.OS === 'android' && !!Constants.expoConfig?.extra?.isFDroidBuild;
 
-export const isOfficial = !__DEV__;
+export const isOfficial: boolean = !__DEV__;

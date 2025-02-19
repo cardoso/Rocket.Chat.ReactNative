@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 	}
 });
 
-const Item = ({
+function Item({
 	title,
 	iconName,
 	onPress,
@@ -51,7 +51,7 @@ const Item = ({
 	disabled,
 	accessibilityLabel,
 	...props
-}: IHeaderButtonItem): React.ReactElement => {
+}: IHeaderButtonItem) {
 	const { colors } = useTheme();
 	return (
 		<PlatformPressable

@@ -2,9 +2,9 @@ import React from 'react';
 import {
 	StyleSheet,
 	Text,
-	TextInputProps,
+	type TextInputProps,
 	TouchableOpacity,
-	TouchableOpacityProps,
+	type TouchableOpacityProps,
 	View,
 	useWindowDimensions
 } from 'react-native';

@@ -13,7 +13,7 @@ import SendEmailConfirmationView from '../views/SendEmailConfirmationView';
 import RegisterView from '../views/RegisterView';
 import LegalView from '../views/LegalView';
 import AuthenticationWebView from '../views/AuthenticationWebView';
-import { OutsideModalParamList, OutsideParamList } from './types';
+import type { OutsideModalParamList, OutsideParamList } from './types';
 
 // Outside
 const Outside = createNativeStackNavigator<OutsideParamList>();
@@ -28,11 +28,8 @@ const _OutsideStack = () => {
 
 			<Outside.Screen name='LoginView' component={LoginView} />
 			<Outside.Screen name='ForgotPasswordView' component={ForgotPasswordView} />
-			{/* @ts-ignore */}
 			<Outside.Screen name='SendEmailConfirmationView' component={SendEmailConfirmationView} />
-			{/* @ts-ignore */}
 			<Outside.Screen name='RegisterView' component={RegisterView} options={RegisterView.navigationOptions} />
-			{/* @ts-ignore */}
 			<Outside.Screen name='LegalView' component={LegalView} />
 		</Outside.Navigator>
 	);
